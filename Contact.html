@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MBSmotor</title>
+    <link rel="stylesheet" href="../CSS/Mbsmoter.css">    
+</head>        
+<body>
+    <main>
+    <header>
+            <img src= "../IMAGES/mbs.png" alt="logo">
+            <img src= "../IMAGES/Banner.png" alt="Banner"> 
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li id="active"><a href="../HTML/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <article id="contactArticle">             
+            <form action="../index.html" method="get">
+                <label for="fname">Name: </label>
+                <input type="text" id="fname" name="fname" maxlength="20" pattern="[a-zA-Z]+"/> 
+                <label >Address :</label>
+                <input type="text"/>
+                <label>Email:</label>
+                <input type="email"/>
+                <label> phone :</label>
+                <input type="number" maxlength="10"/> 
+                <label>usermname :</label>
+                <input type="text"/>
+                <label> passsword</label>
+                <input type="password"/>
+                    
+                <label>State/Territory:</label>
+                <select >
+                    <optgroup label="State">
+                        <option value="QLD ">QLD</option>
+                        <option value="NSW">NSW</option>
+                        <option value="VIC">VIC</option>
+                        <option value="SA">SA</option>
+                    </optgroup>
+                    <optgroup label="Territory">
+                        <option value="NT">NT</option>
+                        <option value="ACT">ACT</option>
+                    </optgroup>
+                </select>
+                <label>Signup for our newsletter?</label>
+                    <div id="radio">
+                        <input type="radio" value="yes" name="signup">Yes
+                        <input type="radio" value="no" name="signup">no
+                    </div>
+
+                <label>How did you here about us?</label>
+                    <div>
+                         <label ><input type="checkbox" value="google">google </label>
+                         <input type="checkbox" value="friends">friends 
+                        <input type="checkbox" value="other">  other
+                    </div>
+                <input type="submit" value="submit">
+            </form>      
+                        
+            <div id ="contactDetails">                               
+                <table>     
+                    <tr>
+                        <td>Admin Name:</td>
+                        <td>MBS MOTOR</td>
+                    </tr>
+                    <tr>
+                        <td>Adress:</td>
+                        <td>14 hand CIRCUIT, Bellbird Park, QLD 450</td>
+                    </tr>
+                    <tr>
+                        <td>email:</td>
+                        <td>MBS@MOTORSALE.COM.AU</td>
+                    </tr>
+                    <tr>
+                        <td>phone:</td>
+                        <td>0405 505 581</td>
+                    </tr>      
+                </table>   
+            </div>
+        </article> 
+
+        <footer> 
+            <div id="top">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../IMAGES/FaceBook.png" alt= " facbook"></a>
+                <a href="https://www.instagram.com/accounts/login/" target="_blank"><img src="../IMAGES/Instagram.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="../IMAGES/YouTube.png" alt=" YouTube"></a>
+            </div>
+            <div id="bottom">&copy; mayur bhagat 2022.</div>
+        </footer>
+    </main>
+</body>
+</html>
+   
